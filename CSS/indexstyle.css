@@ -1,0 +1,38 @@
+/* *{
+    background-color: lightskyblue;
+}
+h2{
+    background-color: blueviolet;
+}
+p{
+    background-color: brown;
+} */
+ #p1{
+    background-color: orange;
+    color: blue;
+ }
+ .hi{
+    background-color: rgb(81, 206, 69);
+    color: orange;
+ }
+ div ~ p{
+    background-color: peru;
+    color: red;
+ }
+ p:hover{
+    font-size: x-large;
+    background-color: brown;
+    color: white;
+ }
+ p::before{
+    content: "welcome to ABES";
+ }
+ p::after{
+    content: "we are going to complete the content";
+    color:red;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ p::selection{
+    background-color: greenyellow;
+ }
