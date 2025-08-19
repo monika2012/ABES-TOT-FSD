@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    border: 1px solid red;
+    height: 800px;
+    width: 800px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+.box1{
+    height: 150px;
+    width: 200px;
+    border: 1px dotted blueviolet;
+    background-color: antiquewhite;
+}
+.box2{
+    height: 150px;
+    width: 200px;
+    border: 1px dotted blueviolet;
+    background-color: azure;
+}
+.box3{
+   height: 150px; 
+   width: 200px;
+    border: 1px dotted rgb(1, 80, 27);
+    background-color: cornflowerblue;
+}
+.box4{
+   height: 150px; 
+   width: 200px;
+   border: 1px dotted rgb(99, 58, 5);
+   background-color: darkcyan;
+}
