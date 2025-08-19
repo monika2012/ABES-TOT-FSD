@@ -39,7 +39,8 @@
 } */
  .container{
     display: grid;
-    grid-template-columns: repeat(4,4fr);
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 200px 400px 200px;
     border: 1px solid red;
     height: 800px;
     width: 800px;
@@ -52,10 +53,14 @@
 }
 
 .box1{
-    height: 150px;
-    width: 150px;
+    height: auto;
+    width: auto;
     border: 1px dotted blueviolet;
-    background-color: antiquewhite;
+    background-color: rgb(238, 4, 62);
+    grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 .box2{
     height: 150px;
