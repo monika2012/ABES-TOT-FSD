@@ -37,6 +37,7 @@
    border: 1px dotted rgb(99, 58, 5);
    background-color: darkcyan;
 } */
+ /* grid...... */
  .container{
     display: grid;
     grid-template-columns: repeat(6,1fr);
