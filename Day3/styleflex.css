@@ -5,29 +5,55 @@
     width: 800px;
     margin: 10px;
     background-color: aliceblue;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .box1{
     height: 150px;
-    width: 200px;
+    width: 150px;
     border: 1px dotted blueviolet;
     background-color: antiquewhite;
 }
 .box2{
     height: 150px;
-    width: 200px;
+    width: 150px;
     border: 1px dotted blueviolet;
     background-color: azure;
 }
 .box3{
    height: 150px; 
-   width: 200px;
+   width: 150px;
     border: 1px dotted rgb(1, 80, 27);
     background-color: cornflowerblue;
 }
 .box4{
    height: 150px; 
-   width: 200px;
+   width: 150px;
    border: 1px dotted rgb(99, 58, 5);
+   background-color: darkcyan;
+}
+.box5{
+    height: 150px;
+    width: 150px;
+    border: 1px dotted red;
+    background-color: antiquewhite;
+}
+.box6{
+    height: 150px;
+    width: 150px;
+    border: 1px dotted purple;
+    background-color: azure;
+}
+.box7{
+   height: 150px; 
+   width: 150px;
+    border: 1px dotted rgb(1, 80, 27);
+    background-color: cornflowerblue;
+}
+.box8{
+   height: 150px; 
+   width: 150px;
+   border: 1px dotted rgb(98, 55, 5);
    background-color: darkcyan;
 }
