@@ -57,4 +57,24 @@
 //     console.log("hi"+msg);
 // }
 // console.log(greet("welcome"));
+function selectLanguage(lang){
+    let data;
+    if(lang=="java"){
+        function javaComplier(){
+            console.log("java complier is being executed");
+        }
+        data=javaComplier();
+    }
+    else if (lang=="c"){
+        function ccompiler(){
+    console.log("c compiler is being executed");}
+    data=ccompiler();
+    }
+    else {
+        data="selected language compiler is not found";
+        console.log(data);
+    }
+
+}
+selectLanguage();
 
