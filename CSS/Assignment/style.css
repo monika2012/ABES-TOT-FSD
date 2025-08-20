@@ -1,45 +1,90 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;       /* Set text color to black */
+    font-size: 16px;       /* Set a readable font size */
+    font-weight: normal;   /* Adjust boldness if needed */
+    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+}
+.parent{
+    display :grid;
+    grid-template-rows: 10% 10% 10% 60% 10%;
+    height: 100vh;
+    width: 100%;
 }
 
-h1{ 
-    color: crimson;
-    font-size: xx-large;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 2px;
-}
-.container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
-    height: 950px;
-    width: 950px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    background-color: rgb(168, 219, 219);
-    border: 2px;
-    margin-top: 30px;
-}
-.box{
+/* Header */
+.header {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    border: 1px;
-    background-color: chocolate;
+    background: #131921;
     color: white;
-    border-radius: 5px;
-    
+    padding: 10px;
 }
-h3{
-    color: rgb(145, 168, 16);
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.search-bar {
+    flex: 1;
+    padding: 8px;
+    border: none;
+}
+.search-btn {
+    background: orange;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    background: #232f3e;
+    color: white;
+    padding: 10px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
     font-size: x-large;
+    line-height: normal;
+}
+
+/* Banner */
+.banner {
+    background: #f3e9e2;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    border: 2px;
+    padding: 40px;
+    font-size: 24px;
+}
+
+/* Products */
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Footer */
+.footer {
+    background: #131921;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
