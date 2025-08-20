@@ -34,5 +34,27 @@
 // }
 // let val=sum(23,12);
 // console.log("sum="+val);
+// const data = function(){
+//     console.log("hi hello ")
+// }
+// data();
 
+// .....arrow function-->
+// 
+// const sum=(a,b)=>{
+//     return a+b;
+// }
+// const add=(a,b)=>a+b;
+// console.log(add(23,45));
+
+// IIFG immediate function invoke...>
+
+// (()=>{
+//     console.log("hello IIFG immediage function invoke")
+// })();
+
+// function greet(msg="hello"){
+//     console.log("hi"+msg);
+// }
+// console.log(greet("welcome"));
 
